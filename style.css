@@ -1,0 +1,71 @@
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(53, 212, 101);
+}
+
+.container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat( auto-fill, minmax(250px, 1fr) );
+}
+
+.icon {
+    padding: 20px;
+    font-size: 3rem;
+    margin: 20px;
+    background-size: 200px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.facebook {
+    background-color: #2D8BE6;
+    padding: 40px;
+    border-radius: 20px;
+}
+.twitter {
+    background-color: #36A5EB;
+    padding: 40px;
+    border-radius: 20px;
+}
+.gmail {
+    background-color: #D24843;
+    padding: 40px;
+    border-radius: 20px;
+}
+.linkedin {
+    background-color: #1D76AA;
+    padding: 40px;
+    border-radius: 20px;
+}
+.youtube {
+    background-color: #FB0019;
+    padding: 40px;
+    border-radius: 20px;
+}
+.drive {
+    background-color: #FCCC64;
+    padding: 40px;
+    border-radius: 20px;
+}
+.github {
+    background-color: #24292D;
+    padding: 40px;
+    border-radius: 20px;
+}
+.reddit {
+    background-color: #FB4324;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+a {
+    display: grid;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
